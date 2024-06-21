@@ -1,0 +1,16 @@
+[tool.poetry]
+package-mode = false
+name = "sphinx-testing"
+version = "0.1.0"
+description = "Repo for testing sphinx docs builds"
+authors = ["CalMacCQ <93673602+CalMacCQ@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Sphinx = "^7.3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
